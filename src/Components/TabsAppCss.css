@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app_heading {
+    padding: 10px 0;
+    background: #5b5a5a;
+    color: white;
+}
+
+.tabs_cont {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.tabs_container {
+    margin-top: 40px;
+}
+
+.tabs_block {
+    background: black;
+    color: white;
+    display: flex;
+    /* padding: 10px; */
+}
+
+.tabs_block .tab {
+    /* margin-right: 44px; */
+    cursor: pointer;
+    width: 16%;
+    padding: 10px;
+}
+
+.tabs_block .active-tab {
+    background: white;
+    color: black;
+}
+
+.tabs_cont .tabCont {
+    display: none;
+    text-align: left;
+    padding: 20px;
+}
+
+.tabs_cont .tabCont-active {
+    display: block;
+}
+
+.tabCont hr {
+    margin-bottom: 10px;
+    width: 24%;
+    padding: 1px;
+    background: black;
+    /* padding: 10px; */
+    margin-top: 7px;
+}
+
+.tab_box {
+    width: 220px;
+    border: 1px solid;
+    /* padding: 4px; */
+}
+
+.tab_box h1 {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+.tab_box .tab_cont {
+    padding: 10px;
+}
+
+.tabContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.pagination li {
+    list-style: none;
+}
+
+.page-item.active {
+    border: 1px solid;
+    padding: 0 10px;
+}
